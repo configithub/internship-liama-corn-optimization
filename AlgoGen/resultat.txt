@@ -1,0 +1,47 @@
+# l'algorithme a généré :
+
+1  1.4
+2  1.4
+3  1.4
+4  1.34283
+5  1.01054
+6  1.07707
+7  0.926231
+8  0.961046
+9  0.84111
+10  0.906708
+11  1.25045
+12  1.23442
+13  1.26774
+14  0.918256
+15  1.23657
+16  1.3436
+17  1.02686
+18  1.39902
+19  1.08422
+20  0.840103
+21  0.858267
+22  1.20021
+23  1.19924
+24  1.07279
+25  0.683919
+26  0.60089
+27  0.615091
+28  0.759812
+29  0.6
+30  0.622722
+31  0.70333
+32  0.6
+33  0.6
+
+# masse de l'épi : 259.125
+
+# somme des composantes du vecteur W : 32.983
+
+# divergence de la meilleure population : 0
+
+# score de la meilleure population : 259.125
+
+# nombre de selections effectuées : 5000
+
+# nombre de mutations effectuées : 1680

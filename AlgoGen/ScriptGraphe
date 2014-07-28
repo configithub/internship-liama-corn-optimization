@@ -1,0 +1,10 @@
+reset
+#set output "epi.ps"
+#set terminal postscript
+set title "Masse de l'épi obtenu par l'algorithme génétique comparé au témoin (composantes toutes égales à 1)"
+set xlabel "cycle"
+set ylabel "masse de l'épi"
+plot "epi.txt" using 1:2 with lines
+replot "epi.txt" using 1:3 with lines
+pause -1
+

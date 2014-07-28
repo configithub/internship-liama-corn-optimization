@@ -1,0 +1,15 @@
+reset
+#set output "epi.ps"
+#set terminal postscript
+set xrange [15:35]
+set yrange [0:350]
+set title "Masse de l'épi obtenue par les différentes méthodes comparées au témoin (composantes toutes égales à 1)"
+set xlabel "cycle"
+set ylabel "masse de l'épi"
+plot "masse.txt" using 1:2 with lines title "Temoin"
+replot "masse.txt" using 1:3 with lines title "Penalisation"
+replot "masse.txt" using 1:4 with lines title "Algorithme génétique"
+replot "masse.txt" using 1:5 with lines title "Essaim particulaire"
+
+pause -1
+

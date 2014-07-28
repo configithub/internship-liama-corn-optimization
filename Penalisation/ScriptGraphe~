@@ -1,0 +1,11 @@
+reset
+#set output "Mepi.ps"
+#set terminal postscript
+set title "Masse de l'épi obtenue par la méthode de pénalisation (en rouge) et par l'algorithme génétique (en bleu) comparées au témoin (W avec composantes toutes égales a 1, en vert)"
+set xlabel "cycle"
+set ylabel "masse de l'épi"
+plot "algogen.txt" using 1:2 with lines
+replot "penalisation.txt" using 1:2 with lines
+replot "temoin.txt" using 1:2 with lines
+pause -1
+
